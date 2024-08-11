@@ -1,0 +1,93 @@
+*{
+background-color: rgb(25, 25, 25);
+}
+/* ----------------Desktop-------------------- */
+@media (max-width: 2580px)and (min-width:1080px){
+    .main{
+        border-radius: 50px;
+        
+       height: 250px;
+       width: 1650px;
+       margin: 100px 50px 50px 100px;
+       /* width: 100%; */
+       color: red;
+       background-color:black;
+       
+       /* border-radius: 15px; */
+       border: solid thick rgb(255, 51, 0);
+       font-family: 'Lucida Sans';
+       font-size: 100px;
+       font-weight: bolder;
+       text-align: center;
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+      
+       
+
+    }
+}
+/* ----------------Tablet-------------------- */   
+@media (max-width: 1080px)and (min-width:480px){
+   *{
+ background-color: orange;
+   }
+   .main{
+    border-radius: 50px;
+    
+   height: 250px;
+   width: 650px;
+   margin: 100px 50px 50px 150px;
+   /* width: 100%; */
+   color: red;
+   background-color:black;
+   
+   /* border-radius: 15px; */
+   border: solid thick rgb(255, 51, 0);
+   font-family: 'Lucida Sans';
+   font-size: 100px;
+   font-weight: bolder;
+   text-align: center;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+  
+   
+
+}
+}
+/* ----------------Mobile landscape-------------------- */    
+@media (max-width: 851px)and (orientation: Landscape){
+    *{
+        background-color: green;
+    }
+}
+/* ----------------Mobile Vertical-------------------- */    
+@media (max-width: 580px){
+    *{
+        background-color: blue;
+     }
+     .main{
+        border-radius: 50px;
+        
+       height: 250px;
+       width: 350px;
+       margin: 100px 0px 0px 60px;
+       /* width: 100%; */
+       color: red;
+       background-color:black;
+       
+       /* border-radius: 15px; */
+       border: solid thick rgb(255, 51, 0);
+       font-family: 'Lucida Sans';
+       font-size: 60px;
+       font-weight: bolder;
+       text-align: center;
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+      
+       
+
+    }
+}
